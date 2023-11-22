@@ -2,8 +2,10 @@ html {
     font-size: 16px;
 }
 
+body { margin: 1vw }
+
 main {
-    width: 80vw;
+    width: 76vw;
     float: left;
 }
 
@@ -18,16 +20,19 @@ h1 {
 p {
     text-align: justify;
     text-indent: 1rem;
+    line-height: 1.75rem;
+    word-spacing: 0.33rem;
 }
 
-p:first-of-type {
-    text-indent: 0;
-}
+p:first-of-type { text-indent: 0 }
 
 aside {
     width: 18vw;
     float: right;
+    margin-right: 2vw;
 }
+
+aside p { text-align: left }
 
 footer {
     text-align: center;

@@ -34,6 +34,8 @@ aside {
 
 aside p { text-align: left }
 
+.tachado { text-decoration: line-through }
+
 footer {
     text-align: center;
     clear: both;
